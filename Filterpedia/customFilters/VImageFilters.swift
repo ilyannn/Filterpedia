@@ -100,7 +100,7 @@ class CircularBokeh: CIFilter, VImageFilter
         
         let imageRef = ciContext.createCGImage(
             inputImage,
-            fromRect: inputImage.extent)
+            fromRect: inputImage.extent)!
         
         var imageBuffer = vImage_Buffer()
         
@@ -195,7 +195,7 @@ class HistogramEqualization: CIFilter, VImageFilter
         
         let imageRef = ciContext.createCGImage(
             inputImage,
-            fromRect: inputImage.extent)
+            fromRect: inputImage.extent)!
         
         var imageBuffer = vImage_Buffer()
         
@@ -322,7 +322,7 @@ class EndsInContrastStretch: CIFilter, VImageFilter
         
         let imageRef = ciContext.createCGImage(
             inputImage,
-            fromRect: inputImage.extent)
+            fromRect: inputImage.extent)!
         
         var imageBuffer = vImage_Buffer()
         
@@ -391,7 +391,7 @@ class ContrastStretch: CIFilter, VImageFilter
         
         let imageRef = ciContext.createCGImage(
             inputImage,
-            fromRect: inputImage.extent)
+            fromRect: inputImage.extent)!
         
         var imageBuffer = vImage_Buffer()
         
@@ -461,7 +461,7 @@ class HistogramSpecification: CIFilter, VImageFilter
         
         let imageRef = ciContext.createCGImage(
             inputImage,
-            fromRect: inputImage.extent)
+            fromRect: inputImage.extent)!
         
         var imageBuffer = vImageBufferFromCIImage(inputImage, ciContext: ciContext)
         var histogramSourceBuffer = vImageBufferFromCIImage(inputHistogramSource, ciContext: ciContext)
@@ -530,7 +530,7 @@ func vImageBufferFromCIImage(ciImage: CIImage, ciContext: CIContext) -> vImage_B
 {
     let imageRef = ciContext.createCGImage(
         ciImage,
-        fromRect: ciImage.extent)
+        fromRect: ciImage.extent)!
     
     var buffer = vImage_Buffer()
     

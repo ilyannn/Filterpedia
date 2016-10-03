@@ -127,7 +127,7 @@ class MaskedVariableCircularBokeh: CIFilter
     
     override var outputImage: CIImage!
     {
-        guard let inputImage = inputImage, inputBlurMask = inputBokehMask else
+        guard let inputImage = inputImage, let inputBlurMask = inputBokehMask else
         {
             return nil
         }
@@ -240,7 +240,7 @@ class MaskedVariableCircularBokeh: CIFilter
             return CIContext(MTLDevice: self.device)
         }()
         
-        let colorSpace = CGColorSpaceCreateDeviceRGB()!
+        let colorSpace = CGColorSpaceCreateDeviceRGB()
         
         private var probe = [Float]()
         
@@ -254,9 +254,9 @@ class MaskedVariableCircularBokeh: CIFilter
         override var outputImage: CIImage?
         {
             guard let inputImage = inputImage,
-                inputTexture = sourceTexture,
-                outputTexture = destinationTexture,
-                intermediateTexture = intermediateTexture else
+                let inputTexture = sourceTexture,
+                let outputTexture = destinationTexture,
+                let intermediateTexture = intermediateTexture else
             {
                 return nil
             }
@@ -282,13 +282,13 @@ class MaskedVariableCircularBokeh: CIFilter
                 bounds: inputImage.extent,
                 colorSpace: colorSpace)
             
-            dilate!.encodeToCommandBuffer(
-                commandBuffer,
+            dilate!.encode(
+                commandBuffer: commandBuffer,
                 sourceTexture: inputTexture,
                 destinationTexture: intermediateTexture)
             
-            blur!.encodeToCommandBuffer(
-                commandBuffer,
+            blur!.encode(
+                commandBuffer: commandBuffer,
                 sourceTexture: intermediateTexture,
                 destinationTexture: outputTexture)
             

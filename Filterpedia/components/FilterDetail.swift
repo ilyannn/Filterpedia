@@ -293,7 +293,7 @@ class FilterDetail: UIView
                         kCIInputImageKey: outputImage])!
                 
                 finalImage = context.createCGImage(stretch.outputImage!,
-                    fromRect: self.rect640x640)
+                    fromRect: self.rect640x640)!
             }
             else if outputImage.extent.width < 640 || outputImage.extent.height < 640
             {
@@ -304,12 +304,12 @@ class FilterDetail: UIView
                     forKey: kCIInputImageKey)
                 
                 finalImage = context.createCGImage(self.compositeOverBlackFilter.outputImage!,
-                    fromRect: self.rect640x640)
+                    fromRect: self.rect640x640)!
             }
             else
             {
                 finalImage = context.createCGImage(outputImage,
-                    fromRect: self.rect640x640)
+                    fromRect: self.rect640x640)!
             }
             
             let endTime = (CFAbsoluteTimeGetCurrent() - startTime)

@@ -94,11 +94,15 @@ class FilterDetail: UIView
         return imageView
     }()
     
-    #if !arch(i386) && !arch(x86_64)
-        let ciMetalContext = CIContext(MTLDevice: MTLCreateSystemDefaultDevice()!)
-    #else
-        let ciMetalContext = CIContext()
-    #endif
+    
+    let ciMetalContext: CIContext = {
+        if let device = MTLCreateSystemDefaultDevice() {
+            return CIContext(MTLDevice: device)
+        } else {
+            return CIContext()
+        }
+    }()
+    
     
     let ciOpenGLESContext = CIContext()
   

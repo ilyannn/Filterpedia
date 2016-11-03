@@ -117,6 +117,7 @@
 		3EFF28311CEB5B9D008FA17D /* scatter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF28301CEB5B9D008FA17D /* scatter.jpg */; };
 		3EFF28331CEE0245008FA17D /* TransverseChromaticAberration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF28321CEE0245008FA17D /* TransverseChromaticAberration.swift */; };
 		3EFF28351CEE0D16008FA17D /* transverse_chromatic_aberration.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF28341CEE0D16008FA17D /* transverse_chromatic_aberration.png */; };
+		BA08CD5D1DCB87B80061720E /* person.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BA08CD5C1DCB87B80061720E /* person.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -232,6 +233,7 @@
 		3EFF28301CEB5B9D008FA17D /* scatter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = scatter.jpg; path = assets/examples/scatter.jpg; sourceTree = "<group>"; };
 		3EFF28321CEE0245008FA17D /* TransverseChromaticAberration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransverseChromaticAberration.swift; path = customFilters/TransverseChromaticAberration.swift; sourceTree = "<group>"; };
 		3EFF28341CEE0D16008FA17D /* transverse_chromatic_aberration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transverse_chromatic_aberration.png; path = assets/transverse_chromatic_aberration.png; sourceTree = "<group>"; };
+		BA08CD5C1DCB87B80061720E /* person.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,6 +412,7 @@
 				3E5928511C4D080D004BFA07 /* sunset.jpg */,
 				3E74E7D81C36D61000F0BCCF /* Assets.swift */,
 				3E9A72361C35250100CAD516 /* screenshot.jpg */,
+				BA08CD5C1DCB87B80061720E /* person.jpeg */,
 				3E9A72341C35101A00CAD516 /* vegas.jpg */,
 				3E9A722E1C350E6A00CAD516 /* stop.jpg */,
 				3E9A72261C33A8AB00CAD516 /* monalisa.jpg */,
@@ -497,6 +500,7 @@
 			files = (
 				3EC6D0C31CA4FDB0003B5E90 /* coffeecup.jpg in Resources */,
 				3E7CBC731CD64A3C00EBAB07 /* rgb_gaussian_blur.png in Resources */,
+				BA08CD5D1DCB87B80061720E /* person.jpeg in Resources */,
 				3E9A722F1C350E6A00CAD516 /* stop.jpg in Resources */,
 				3E7CBC621CD64A3C00EBAB07 /* color_scalar_noise.png in Resources */,
 				3E7CBC641CD64A3C00EBAB07 /* contrast_stretch.png in Resources */,

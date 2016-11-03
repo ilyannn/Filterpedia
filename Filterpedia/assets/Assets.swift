@@ -34,6 +34,7 @@ let assets = [
     NamedImage(name: "Sunset", ciImage: CIImage(image: UIImage(named: "sunset.jpg")!)!),
     NamedImage(name: "Coffee", ciImage: CIImage(image: UIImage(named: "coffeecup.jpg")!)!),
     NamedImage(name: "Mascot", ciImage: CIImage(image: UIImage(named: "carMascot.jpg")!)!),
+    NamedImage(name: "Person", ciImage: CIImage(image: UIImage(named: "person.jpeg")!)!),
     NamedImage(name: "Gradient", ciImage: gradientImage!)
 ]
 

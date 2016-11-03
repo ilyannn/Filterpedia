@@ -27,10 +27,11 @@ let gradientImage = CIFilter(
     .imageByCroppingToRect(CGRect(x: 0, y: 0, width: 640, height: 640))
 
 let assets = [
+    NamedImage(name: "Scene", ciImage: CIImage(image: UIImage(named: "scene.jpg")!)!),
     NamedImage(name: "Person", ciImage: CIImage(image: UIImage(named: "person.jpg")!)!),
-    NamedImage(name: "Mona Lisa", ciImage: CIImage(image: UIImage(named: "monalisa.jpg")!)!),
+    NamedImage(name: "Mona", ciImage: CIImage(image: UIImage(named: "monalisa.jpg")!)!),
     NamedImage(name: "Stop", ciImage: CIImage(image: UIImage(named: "stop.jpg")!)!),
-    NamedImage(name: "Sunflower", ciImage: CIImage(image: UIImage(named: "sunflower.jpg")!)!),
+    NamedImage(name: "Sun", ciImage: CIImage(image: UIImage(named: "sunflower.jpg")!)!),
     NamedImage(name: "Vegas", ciImage: CIImage(image: UIImage(named: "vegas.jpg")!)!),
     NamedImage(name: "Sunset", ciImage: CIImage(image: UIImage(named: "sunset.jpg")!)!),
     NamedImage(name: "Coffee", ciImage: CIImage(image: UIImage(named: "coffeecup.jpg")!)!),

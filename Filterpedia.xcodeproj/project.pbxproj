@@ -118,6 +118,7 @@
 		3EFF28331CEE0245008FA17D /* TransverseChromaticAberration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFF28321CEE0245008FA17D /* TransverseChromaticAberration.swift */; };
 		3EFF28351CEE0D16008FA17D /* transverse_chromatic_aberration.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF28341CEE0D16008FA17D /* transverse_chromatic_aberration.png */; };
 		BA08CD5D1DCB87B80061720E /* person.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA08CD5C1DCB87B80061720E /* person.jpg */; };
+		BAA7120F1DCBE297002AE861 /* scene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA7120E1DCBE297002AE861 /* scene.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -234,6 +235,7 @@
 		3EFF28321CEE0245008FA17D /* TransverseChromaticAberration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransverseChromaticAberration.swift; path = customFilters/TransverseChromaticAberration.swift; sourceTree = "<group>"; };
 		3EFF28341CEE0D16008FA17D /* transverse_chromatic_aberration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transverse_chromatic_aberration.png; path = assets/transverse_chromatic_aberration.png; sourceTree = "<group>"; };
 		BA08CD5C1DCB87B80061720E /* person.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person.jpg; sourceTree = "<group>"; };
+		BAA7120E1DCBE297002AE861 /* scene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -407,6 +409,7 @@
 			isa = PBXGroup;
 			children = (
 				3E7CBC291CD64A2600EBAB07 /* examples */,
+				BAA7120E1DCBE297002AE861 /* scene.jpg */,
 				3EC6D0C21CA4FDB0003B5E90 /* coffeecup.jpg */,
 				3E7505B01C5E0FA300248A3F /* carMascot.jpg */,
 				3E5928511C4D080D004BFA07 /* sunset.jpg */,
@@ -500,6 +503,7 @@
 			files = (
 				3EC6D0C31CA4FDB0003B5E90 /* coffeecup.jpg in Resources */,
 				3E7CBC731CD64A3C00EBAB07 /* rgb_gaussian_blur.png in Resources */,
+				BAA7120F1DCBE297002AE861 /* scene.jpg in Resources */,
 				BA08CD5D1DCB87B80061720E /* person.jpg in Resources */,
 				3E9A722F1C350E6A00CAD516 /* stop.jpg in Resources */,
 				3E7CBC621CD64A3C00EBAB07 /* color_scalar_noise.png in Resources */,

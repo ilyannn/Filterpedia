@@ -470,7 +470,7 @@
 				TargetAttributes = {
 					3E9A72061C325E5600CAD516 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = AC75G89BDX;
+						DevelopmentTeam = FQ4NLZRLT2;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -731,10 +731,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AC75G89BDX;
+				DEVELOPMENT_TEAM = FQ4NLZRLT2;
 				INFOPLIST_FILE = Filterpedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ilya.example.filterpedia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mind.example.filterpedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -745,10 +745,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AC75G89BDX;
+				DEVELOPMENT_TEAM = FQ4NLZRLT2;
 				INFOPLIST_FILE = Filterpedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ilya.example.filterpedia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mind.example.filterpedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 2;
